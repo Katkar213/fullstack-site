@@ -299,7 +299,8 @@ h6 {
   padding: 5rem;
 }
 .header-right-side{
-padding:0rem 4rem;
+padding:1.5rem 2rem;
+/* padding-left: 0px; */
 }
 
 .header-right-side div{
@@ -2763,7 +2764,48 @@ font-size: 16px;
   transition-delay: 0.5s;
 }
 
+/* placement banner..........................
+............................ */
+.our-top-placement-left-bottom-img{
+  width:32rem;
+  height:19rem;
+}
+.our-top-placement-left-bottom-img img{
+  height:100%;
+  width:100%;
+}
 
+.place-student-banner-image{
+  /* height:19rem; */
+  /* border: 1px solid black; */
+}
+.place-student-banner-image img{
+  height:100%;
+  width:100%;
+}
+.place-student-banner-parent .row,
+.place-student-banner-parent .col-lg-5,
+.place-student-banner-parent .col-lg-7
+
+{
+
+  padding-right:0px !important;
+  padding-left: 0px !important;
+  padding-top:15px;
+}
+.our-top-placement-left-bottom-img{
+  position: relative;
+  z-index: 100;
+}
+.our-top-placement-left-bottom-img h1{
+  position: absolute;
+  color:#6D4800;
+  width:22%;
+  text-align: left;
+  top:50%;
+  left: 3%;
+  z-index: 200;
+}
 
  /* -------------------------------------------------------
  my-css-end----------------------------------------------- */
@@ -2869,7 +2911,16 @@ font-size: 14px;
 .contact .info-item p{
   font-size: 12px;
 }
-
+/* placement-banner */
+.place-student-banner-parent .row{
+display:flex;
+flex-direction: column;
+flex-direction: column-reverse;
+}
+/* placement-card-header */
+.header-right-side {
+padding:0px;
+}
  }
 
 
